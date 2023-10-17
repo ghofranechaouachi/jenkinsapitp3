@@ -12,7 +12,6 @@ environnement:
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
     depends_on:
       - mysql
-
   # MySQL Database
   mysql:
     image: mysql:5.7
